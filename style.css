@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/** MAIN CONFIGS **/
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(pictures/961-1500x1000-grayscale.jpg);
+}
+
+/** CONTENT CONTAINER **/
+
+.content-container {
+    border: 2px gray dotted;
+    border-radius: 10px;
+    background-color: rgba(109, 109, 109, 0.384);
+    padding: 10px;;
+}
+
+.content-container h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.inputs input {
+    color: white;
+    padding: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    background: none;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 2px white solid;
+}
+
+.inputs input::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+#user {
+    padding-right: 30px;
+    background-image: url(./pictures/outline_account_circle_white_24dp.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#password {
+    padding-right: 30px;
+    fill: white;
+    background-image: url(./pictures/outline_password_white_24dp.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.f-pass {
+    padding: 10px 10px 10px 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.f-check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.f-pass a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 4px;
+    border-radius: 5px;
+    border-bottom: 2px white solid;
+    cursor: pointer;
+}
+
+.f-pass a:hover {
+    transition: .2s linear;
+    padding-bottom: 8px;
+}
+
+.f-pass input {
+    margin-right: 5px;
+    width: 13px;
+}
+
+.f-pass p {
+    font-weight: 300;
+    color: white;
+}
+
+
+#lgn-btn {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+#lgn-btn:hover {
+    transition: .4s linear;
+    color: white;
+    border-bottom: 2px white solid;
+    background-color: rgba(109, 109, 109, 0.384);
+}
+
+#lgn-btn a{
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+#acc-create {
+    padding: 5px;
+    text-align: end;
+    color: white;
+}
+
+#acc-create a {
+    color: white;
+    border-bottom: 2px white solid;
+    text-decoration: none;
+}
+
+#acc-create a:hover {
+    transition: .4s ease-in-out;
+    padding: 2px;
+    color: white;
+    border-bottom: 2px white solid;
+    background-color: rgba(109, 109, 109, 0.543);
+}
